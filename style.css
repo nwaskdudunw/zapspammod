@@ -1,0 +1,151 @@
+body{
+	background-color:rgba(170, 170, 170, 0.42);
+}
+
+.CodeCheck {
+	width: 500px;
+	border:1px solid #bb8787;
+	border-radius:15px;
+	padding:15px;
+	margin:120px auto;
+}
+
+#Info{
+	padding:10px 70px;
+	background-color:#f2dede;
+	color:#ab5755;
+	border-radius:5px;
+	border:2px solid #a57a7a;
+	font-size:18px;
+}
+
+.CodeCheck p{
+	font-weight:bolder;
+	margin-bottom:0;
+	font-family:monospace;
+	margin-left:70px;
+}
+
+#Inpt,
+#Ans {
+	font-size: 15px;
+	width: 90px;
+	text-align: center;
+	height:26px;
+}
+
+#Inpt{
+	border:0px;
+	background-color:#ccc;
+	margin-left:70px;
+	font-weight:bold;
+	letter-spacing:4px;
+}
+
+#Ans {
+	margin-top: 0px;
+	margin-left:-5px;
+	width:120px;
+	outline:0px;
+	border:1px solid #a9a9a9;
+	height:24px;
+}
+
+#Info {
+	text-align: center;
+	margin: 3px;
+}
+
+button{
+	padding:5px 10px;
+}
+html,
+body {
+      margin: 10;
+      padding: 0;
+      width: 100vw;
+      height: 100vh;
+      background-image: url(https://i.pinimg.com/originals/8f/a6/e4/8fa6e41574e4193f4192eec79046f9a0.gif);
+      font: 16px Courier;
+}
+
+i {
+      font-style: normal;
+      color: red;
+}
+e {
+      color: #0e0;
+}
+b {
+      color: #00e;
+      font-weight: normal;
+}
+
+#cmd {
+      width: calc(100% - 20px);
+      height: calc(100% - 60px);
+      margin: 0;
+      padding: 10px;
+      color: #eee;
+}
+#cmdbar {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      padding: 10px;
+      margin: 0;
+      width: calc(100% - 20px);
+      height: 40px;
+      background: #323232;
+      border-top: 1px solid #444;
+}
+#command {
+      width: calc(100% - 10px);
+      height: 36px;
+      border: 1px solid #444;
+      background: #222;
+      color: #0e0;
+      outline: none;
+      padding-left: 8px;
+      font-family: courier;
+}
+
+@-webkit-keyframes loader {
+      from {
+            width: 0;
+      }
+      to {
+            width: 100%;
+      }
+}
+@keyframes loader {
+      from {
+            width: 0;
+      }
+      to {
+            width: 100%;
+      }
+}
+
+#inp-ggame {
+      width: 190px;
+      height: 24px;
+      background: #333;
+      border: 1px solid #444;
+      display: block;
+      outline: none;
+      color: #0e0;
+      padding-left: 10px;
+}
+#btn-ggame {
+      margin: 10px 50px;
+      width: 100px;
+      height: 24px;
+      background: #444;
+      border: 1px solid #0e0;
+      display: block;
+}
+#btn-ggame:before {
+      content: "Guess";
+      color: #0e0;
+}
